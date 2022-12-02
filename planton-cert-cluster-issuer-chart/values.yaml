@@ -1,2 +1,6 @@
 # id of the gcp dns project for cert-manager to solve dns01 challenges
 # gcpDnsProjectId: <gcp-project-id>
+
+createSelfSignedIssuer: true
+createLetsEncryptHttp01Issuer: true
+createLetsEncryptDns01GcpDnsIssuer: false
