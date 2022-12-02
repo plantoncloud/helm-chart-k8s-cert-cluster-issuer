@@ -8,6 +8,6 @@ entries:
       name: planton-cert-cluster-issuer-chart
       type: application
       urls:
-        - https://github.com/plantoncloud/planton-cert-cluster-issuer-chart/releases/download/v0.0.4/planton-cert-cluster-issuer-chart-v0.0.4.tgz
-      version: v0.0.4
+        - https://github.com/plantoncloud/planton-cert-cluster-issuer-chart/releases/download/v0.0.5/planton-cert-cluster-issuer-chart-v0.0.5.tgz
+      version: v0.0.5
 generated: "2022-08-28T15:41:46.96673-07:00"
