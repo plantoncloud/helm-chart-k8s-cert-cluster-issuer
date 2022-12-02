@@ -2,7 +2,7 @@
 apiVersion: cert-manager.io/v1
 kind: ClusterIssuer
 metadata:
-  name: letsencrypt-production-http01
+  name: {{ .Values.createLetsEncryptHttp01Issuer }}
 spec:
   acme:
     privateKeySecretRef:
