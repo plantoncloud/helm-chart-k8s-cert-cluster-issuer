@@ -2,5 +2,8 @@
 # gcpDnsProjectId: <gcp-project-id>
 
 createSelfSignedIssuer: true
+selfSignedIssuerName: self-signed
 createLetsEncryptHttp01Issuer: true
+letsEncryptHttp01IssuerName: letsencrypt-production-http01
 createLetsEncryptDns01GcpDnsIssuer: false
+letsEncryptDns01GcpDnsIssuerName: letsencrypt-production-gcp-dns
