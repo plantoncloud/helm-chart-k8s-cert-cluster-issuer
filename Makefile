@@ -1,4 +1,4 @@
 .PHONY: template
 template:
 	rm -rf generated
-	helm template planton-cert-cluster-issuer-chart --output-dir generated
+	helm template k8s-cert-cluster-issuer --output-dir generated
